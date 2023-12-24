@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cake-section {
+    background-color: #c2a3d1;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    align-items: flex-start;
+}
+
+.cake-card {
+    display: flex;
+    width: 900px;
+    height: 270px;
+    gap: 15px;
+    background-color: white;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cake-card .image-box img {
+    height: 100%;
+}
+
+.cake-card .details-box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+.cake-card .details-box h3 {
+    color: #c2a3d1;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cake-card .details-box .stars i {
+    color: #DB871C;
+}
+
+.cake-card .details-box .times-box {
+    display: flex;
+    gap: 20px;
+}
+
+.cake-card .details-box .times-box .time-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.cake-card .details-box button {
+    background-color: #DB871C;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    bottom: -26px;
+    right: -18px;
+    width: 200px;
+}
